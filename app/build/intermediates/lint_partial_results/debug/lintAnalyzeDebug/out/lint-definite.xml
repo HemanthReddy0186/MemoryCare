@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<incidents format="6" by="lint 8.6.0" type="incidents">
+
+    <incident
+        id="RedundantLabel"
+        severity="warning"
+        message="Redundant label can be removed">
+        <fix-attribute
+            description="Delete label"
+            namespace="http://schemas.android.com/apk/res/android"
+            attribute="label"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*manifest*0}"
+            line="22"
+            column="13"
+            startOffset="911"
+            endLine="22"
+            endColumn="45"
+            endOffset="943"/>
+    </incident>
+
+    <incident
+        id="ObsoleteSdkInt"
+        severity="warning"
+        message="This folder configuration (`v26`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `mipmap-anydpi`.">
+        <fix-data file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26" folderName="mipmap-anydpi" requiresApi="26"/>
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26"/>
+    </incident>
+
+    <incident
+        id="MonochromeLauncherIcon"
+        severity="warning"
+        message="The application adaptive icon is missing a monochrome tag">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*resDir*0}/mipmap-anydpi-v26/ic_launcher.xml"
+            line="2"
+            column="1"
+            startOffset="39"
+            endLine="5"
+            endColumn="17"
+            endOffset="272"/>
+    </incident>
+
+    <incident
+        id="ModifierParameter"
+        severity="warning"
+        message="Modifier parameter should be the first optional parameter">
+        <location
+            file="${:app*debug*MAIN*sourceProvider*0*javaDir*0}/com/memorycare/app/ui/components/SpaceTopBar.kt"
+            line="69"
+            column="5"
+            startOffset="2984"
+            endLine="69"
+            endColumn="13"
+            endOffset="2992"/>
+    </incident>
+
+    <incident
+        id="OldTargetApi"
+        severity="warning"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details.">
+        <fix-replace
+            description="Update targetSdkVersion to 35"
+            oldString="34"
+            replacement="35"
+            priority="0"/>
+        <location
+            file="${:app*projectDir}/build.gradle.kts"
+            line="14"
+            column="9"
+            startOffset="296"
+            endLine="14"
+            endColumn="23"
+            endOffset="310"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.core:core-ktx than 1.13.1 is available: 1.19.0">
+        <fix-replace
+            description="Change to 1.19.0"
+            family="Update versions"
+            oldString="1.13.1"
+            replacement="1.19.0"
+            priority="0"/>
+        <location
+            file="$HOME/OneDrive/Documents/MemoryCare/gradle/libs.versions.toml"
+            line="4"
+            column="11"
+            startOffset="52"
+            endLine="4"
+            endColumn="19"
+            endOffset="60"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-runtime-ktx than 2.8.4 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.8.4"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/OneDrive/Documents/MemoryCare/gradle/libs.versions.toml"
+            line="5"
+            column="23"
+            startOffset="83"
+            endLine="5"
+            endColumn="30"
+            endOffset="90"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.8.4 is available: 2.11.0">
+        <fix-replace
+            description="Change to 2.11.0"
+            family="Update versions"
+            oldString="2.8.4"
+            replacement="2.11.0"
+            priority="0"/>
+        <location
+            file="$HOME/OneDrive/Documents/MemoryCare/gradle/libs.versions.toml"
+            line="9"
+            column="29"
+            startOffset="199"
+            endLine="9"
+            endColumn="36"
+            endOffset="206"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.activity:activity-compose than 1.9.1 is available: 1.13.0">
+        <fix-replace
+            description="Change to 1.13.0"
+            family="Update versions"
+            oldString="1.9.1"
+            replacement="1.13.0"
+            priority="0"/>
+        <location
+            file="$HOME/OneDrive/Documents/MemoryCare/gradle/libs.versions.toml"
+            line="6"
+            column="19"
+            startOffset="109"
+            endLine="6"
+            endColumn="26"
+            endOffset="116"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose:compose-bom than 2024.06.00 is available: 2026.08.00">
+        <fix-replace
+            description="Change to 2026.08.00"
+            family="Update versions"
+            oldString="2024.06.00"
+            replacement="2026.08.00"
+            priority="0"/>
+        <location
+            file="$HOME/OneDrive/Documents/MemoryCare/gradle/libs.versions.toml"
+            line="7"
+            column="14"
+            startOffset="130"
+            endLine="7"
+            endColumn="26"
+            endOffset="142"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.compose.material:material-icons-extended than 1.6.8 is available: 1.7.8">
+        <fix-replace
+            description="Change to 1.7.8"
+            family="Update versions"
+            oldString="1.6.8"
+            replacement="1.7.8"
+            priority="0"/>
+        <location
+            file="$HOME/OneDrive/Documents/MemoryCare/gradle/libs.versions.toml"
+            line="10"
+            column="25"
+            startOffset="231"
+            endLine="10"
+            endColumn="32"
+            endOffset="238"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.navigation:navigation-compose than 2.7.7 is available: 2.10.0">
+        <fix-replace
+            description="Change to 2.10.0"
+            family="Update versions"
+            oldString="2.7.7"
+            replacement="2.10.0"
+            priority="0"/>
+        <location
+            file="$HOME/OneDrive/Documents/MemoryCare/gradle/libs.versions.toml"
+            line="8"
+            column="21"
+            startOffset="163"
+            endLine="8"
+            endColumn="28"
+            endOffset="170"/>
+    </incident>
+
+    <incident
+        id="GradleDependency"
+        severity="warning"
+        message="A newer version of androidx.datastore:datastore-preferences than 1.1.1 is available: 1.2.1">
+        <fix-replace
+            description="Change to 1.2.1"
+            family="Update versions"
+            oldString="1.1.1"
+            replacement="1.2.1"
+            priority="0"/>
+        <location
+            file="$HOME/OneDrive/Documents/MemoryCare/gradle/libs.versions.toml"
+            line="12"
+            column="24"
+            startOffset="278"
+            endLine="12"
+            endColumn="31"
+            endOffset="285"/>
+    </incident>
+
+    <incident
+        id="AndroidGradlePluginVersion"
+        severity="warning"
+        message="A newer version of com.android.application than 8.6.0 is available: 9.4.0. (There is also a newer version of 8.6.𝑥 available, if upgrading to 9.4.0 is difficult: 8.6.1)">
+        <fix-alternatives>
+            <fix-replace
+                description="Change to 9.4.0"
+                family="Update versions"
+                oldString="8.6.0"
+                replacement="9.4.0"
+                priority="0"/>
+            <fix-replace
+                description="Change to 8.6.1"
+                family="Update versions"
+                robot="true"
+                independent="true"
+                oldString="8.6.0"
+                replacement="8.6.1"
+                priority="0"/>
+        </fix-alternatives>
+        <location
+            file="$HOME/OneDrive/Documents/MemoryCare/gradle/libs.versions.toml"
+            line="2"
+            column="7"
+            startOffset="17"
+            endLine="2"
+            endColumn="14"
+            endOffset="24"/>
+    </incident>
+
+</incidents>

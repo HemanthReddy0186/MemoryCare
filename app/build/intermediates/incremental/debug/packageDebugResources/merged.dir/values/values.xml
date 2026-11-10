@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="orbital_cyan">#FF00E5FF</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="space_navy">#FF071124</color>
+    <color name="space_navy_surface">#FF0D2040</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">MemoryCare</string>
+    <string name="caretaker_role">Caretaker Mode</string>
+    <string name="caretaker_role_desc">Cognitive scoring, geofence &amp; satellite telemetry</string>
+    <string name="patient_role">Patient Mode</string>
+    <string name="patient_role_desc">Simple games, voice prompts &amp; daily reminders</string>
+    <string name="role_selection_subtitle">Space-Telemetry Cognitive Assistance</string>
+    <string name="role_selection_title">Welcome to MemoryCare</string>
+    <style name="Theme.MemoryCare" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:statusBarColor">#071124</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

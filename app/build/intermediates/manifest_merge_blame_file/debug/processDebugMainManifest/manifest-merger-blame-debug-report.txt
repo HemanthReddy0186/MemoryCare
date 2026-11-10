@@ -1,0 +1,283 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.memorycare.app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+11-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:5:5-71
+11-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:5:22-68
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:6:5-67
+12-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:6:22-64
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:7:5-79
+13-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:7:22-76
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:9:5-81
+15-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:9:22-78
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:10:5-66
+16-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:10:22-63
+17    <uses-permission
+17-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:11:5-107
+18        android:name="android.permission.READ_EXTERNAL_STORAGE"
+18-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:11:22-77
+19        android:maxSdkVersion="32" />
+19-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:11:78-104
+20    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+20-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:12:5-76
+20-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:12:22-73
+21    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+21-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:14:5-79
+21-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:14:22-76
+22    <uses-permission android:name="android.permission.USE_EXACT_ALARM" />
+22-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:15:5-74
+22-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:15:22-71
+23    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+23-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:16:5-81
+23-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:16:22-78
+24    <uses-permission android:name="android.permission.WAKE_LOCK" />
+24-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:17:5-68
+24-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:17:22-65
+25    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+25-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:18:5-77
+25-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:18:22-74
+26    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+26-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:19:5-77
+26-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:19:22-74
+27    <uses-permission android:name="android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK" />
+27-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:20:5-92
+27-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:20:22-89
+28    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+28-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:21:5-78
+28-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:21:22-75
+29
+30    <queries>
+30-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:23:5-33:15
+31        <intent>
+31-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:24:9-26:18
+32            <action android:name="android.speech.RecognitionService" />
+32-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:25:13-72
+32-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:25:21-69
+33        </intent>
+34        <intent>
+34-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:27:9-29:18
+35            <action android:name="android.speech.action.RECOGNIZE_SPEECH" />
+35-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:28:13-77
+35-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:28:21-74
+36        </intent>
+37        <intent>
+37-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:30:9-32:18
+38            <action android:name="android.intent.action.TTS_SERVICE" />
+38-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:31:13-72
+38-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:31:21-69
+39        </intent>
+40    </queries>
+41
+42    <permission
+42-->[androidx.core:core:1.13.1] C:\Users\janug\.gradle\caches\transforms-4\595994afcca92ada8cf8f02242a0155a\transformed\core-1.13.1\AndroidManifest.xml:22:5-24:47
+43        android:name="com.memorycare.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+43-->[androidx.core:core:1.13.1] C:\Users\janug\.gradle\caches\transforms-4\595994afcca92ada8cf8f02242a0155a\transformed\core-1.13.1\AndroidManifest.xml:23:9-81
+44        android:protectionLevel="signature" />
+44-->[androidx.core:core:1.13.1] C:\Users\janug\.gradle\caches\transforms-4\595994afcca92ada8cf8f02242a0155a\transformed\core-1.13.1\AndroidManifest.xml:24:9-44
+45
+46    <uses-permission android:name="com.memorycare.app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+46-->[androidx.core:core:1.13.1] C:\Users\janug\.gradle\caches\transforms-4\595994afcca92ada8cf8f02242a0155a\transformed\core-1.13.1\AndroidManifest.xml:26:5-97
+46-->[androidx.core:core:1.13.1] C:\Users\janug\.gradle\caches\transforms-4\595994afcca92ada8cf8f02242a0155a\transformed\core-1.13.1\AndroidManifest.xml:26:22-94
+47
+48    <application
+48-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:35:5-92:19
+49        android:allowBackup="true"
+49-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:36:9-35
+50        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+50-->[androidx.core:core:1.13.1] C:\Users\janug\.gradle\caches\transforms-4\595994afcca92ada8cf8f02242a0155a\transformed\core-1.13.1\AndroidManifest.xml:28:18-86
+51        android:dataExtractionRules="@xml/data_extraction_rules"
+51-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:37:9-65
+52        android:debuggable="true"
+53        android:extractNativeLibs="false"
+54        android:fullBackupContent="@xml/backup_rules"
+54-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:38:9-54
+55        android:icon="@mipmap/ic_launcher"
+55-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:39:9-43
+56        android:label="@string/app_name"
+56-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:40:9-41
+57        android:roundIcon="@mipmap/ic_launcher"
+57-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:41:9-48
+58        android:supportsRtl="true"
+58-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:42:9-35
+59        android:theme="@style/Theme.MemoryCare" >
+59-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:43:9-48
+60        <activity
+60-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:45:9-55:20
+61            android:name="com.memorycare.app.MainActivity"
+61-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:46:13-41
+62            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+62-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:50:13-87
+63            android:exported="true"
+63-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:47:13-36
+64            android:label="@string/app_name"
+64-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:48:13-45
+65            android:theme="@style/Theme.MemoryCare" >
+65-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:49:13-52
+66            <intent-filter>
+66-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:51:13-54:29
+67                <action android:name="android.intent.action.MAIN" />
+67-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:52:17-69
+67-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:52:25-66
+68
+69                <category android:name="android.intent.category.LAUNCHER" />
+69-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:53:17-77
+69-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:53:27-74
+70            </intent-filter>
+71        </activity>
+72
+73        <receiver
+73-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:57:9-64:20
+74            android:name="com.memorycare.app.receiver.ReminderAlarmReceiver"
+74-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:58:13-59
+75            android:exported="false" >
+75-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:59:13-37
+76            <intent-filter>
+76-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:60:13-63:29
+77                <action android:name="com.memorycare.app.ACTION_REMINDER_ALARM" />
+77-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:61:17-83
+77-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:61:25-80
+78                <action android:name="com.memorycare.app.ACTION_TRIGGER_VERIFICATION" />
+78-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:62:17-89
+78-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:62:25-86
+79            </intent-filter>
+80        </receiver>
+81
+82        <service
+82-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:66:9-69:61
+83            android:name="com.memorycare.app.alarm.ReminderAlarmService"
+83-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:67:13-55
+84            android:exported="false"
+84-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:68:13-37
+85            android:foregroundServiceType="mediaPlayback" />
+85-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:69:13-58
+86
+87        <activity
+87-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:71:9-80:90
+88            android:name="com.memorycare.app.ui.ReminderAlarmActivity"
+88-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:72:13-53
+89            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+89-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:80:13-87
+90            android:excludeFromRecents="true"
+90-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:79:13-46
+91            android:exported="false"
+91-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:73:13-37
+92            android:launchMode="singleTop"
+92-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:78:13-43
+93            android:showForAllUsers="true"
+93-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:76:13-43
+94            android:showWhenLocked="true"
+94-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:74:13-42
+95            android:theme="@style/Theme.MemoryCare"
+95-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:77:13-52
+96            android:turnScreenOn="true" />
+96-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:75:13-40
+97        <activity
+97-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:82:9-91:90
+98            android:name="com.memorycare.app.ui.ReminderVerificationActivity"
+98-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:83:13-60
+99            android:configChanges="orientation|screenSize|screenLayout|keyboardHidden"
+99-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:91:13-87
+100            android:excludeFromRecents="true"
+100-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:90:13-46
+101            android:exported="false"
+101-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:84:13-37
+102            android:launchMode="singleTop"
+102-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:89:13-43
+103            android:showForAllUsers="true"
+103-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:87:13-43
+104            android:showWhenLocked="true"
+104-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:85:13-42
+105            android:theme="@style/Theme.MemoryCare"
+105-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:88:13-52
+106            android:turnScreenOn="true" />
+106-->C:\Users\janug\OneDrive\Documents\MemoryCare\app\src\main\AndroidManifest.xml:86:13-40
+107
+108        <provider
+108-->[androidx.emoji2:emoji2:1.3.0] C:\Users\janug\.gradle\caches\transforms-4\2e1d3f11d9ed27cf5a98667083e2090d\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+109            android:name="androidx.startup.InitializationProvider"
+109-->[androidx.emoji2:emoji2:1.3.0] C:\Users\janug\.gradle\caches\transforms-4\2e1d3f11d9ed27cf5a98667083e2090d\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+110            android:authorities="com.memorycare.app.androidx-startup"
+110-->[androidx.emoji2:emoji2:1.3.0] C:\Users\janug\.gradle\caches\transforms-4\2e1d3f11d9ed27cf5a98667083e2090d\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+111            android:exported="false" >
+111-->[androidx.emoji2:emoji2:1.3.0] C:\Users\janug\.gradle\caches\transforms-4\2e1d3f11d9ed27cf5a98667083e2090d\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+112            <meta-data
+112-->[androidx.emoji2:emoji2:1.3.0] C:\Users\janug\.gradle\caches\transforms-4\2e1d3f11d9ed27cf5a98667083e2090d\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+113                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+113-->[androidx.emoji2:emoji2:1.3.0] C:\Users\janug\.gradle\caches\transforms-4\2e1d3f11d9ed27cf5a98667083e2090d\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+114                android:value="androidx.startup" />
+114-->[androidx.emoji2:emoji2:1.3.0] C:\Users\janug\.gradle\caches\transforms-4\2e1d3f11d9ed27cf5a98667083e2090d\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+115            <meta-data
+115-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\janug\.gradle\caches\transforms-4\06c415e8d6ca6b4e5f8993e58b145707\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:29:13-31:52
+116                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+116-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\janug\.gradle\caches\transforms-4\06c415e8d6ca6b4e5f8993e58b145707\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:30:17-78
+117                android:value="androidx.startup" />
+117-->[androidx.lifecycle:lifecycle-process:2.8.4] C:\Users\janug\.gradle\caches\transforms-4\06c415e8d6ca6b4e5f8993e58b145707\transformed\lifecycle-process-2.8.4\AndroidManifest.xml:31:17-49
+118            <meta-data
+118-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+119                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+119-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+120                android:value="androidx.startup" />
+120-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+121        </provider>
+122
+123        <activity
+123-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\janug\.gradle\caches\transforms-4\6d0f658ab30990fd6ce8f3620dfc30dd\transformed\ui-tooling-release\AndroidManifest.xml:23:9-25:39
+124            android:name="androidx.compose.ui.tooling.PreviewActivity"
+124-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\janug\.gradle\caches\transforms-4\6d0f658ab30990fd6ce8f3620dfc30dd\transformed\ui-tooling-release\AndroidManifest.xml:24:13-71
+125            android:exported="true" />
+125-->[androidx.compose.ui:ui-tooling-android:1.6.8] C:\Users\janug\.gradle\caches\transforms-4\6d0f658ab30990fd6ce8f3620dfc30dd\transformed\ui-tooling-release\AndroidManifest.xml:25:13-36
+126
+127        <receiver
+127-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+128            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+128-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+129            android:directBootAware="false"
+129-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+130            android:enabled="true"
+130-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+131            android:exported="true"
+131-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+132            android:permission="android.permission.DUMP" >
+132-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+133            <intent-filter>
+133-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+134                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+134-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+135            </intent-filter>
+136            <intent-filter>
+136-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+137                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+137-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+138            </intent-filter>
+139            <intent-filter>
+139-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+140                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+140-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+141            </intent-filter>
+142            <intent-filter>
+142-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+143                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+143-->[androidx.profileinstaller:profileinstaller:1.3.1] C:\Users\janug\.gradle\caches\transforms-4\ca6fc0c57230106494840a1ec0240032\transformed\profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
+144            </intent-filter>
+145        </receiver>
+146    </application>
+147
+148</manifest>
